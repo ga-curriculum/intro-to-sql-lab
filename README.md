@@ -1,4 +1,4 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![SQL Where in the World is Carmen Sandiego](./assets/tktk-hero.png)
 
 ## About
 
