@@ -2,11 +2,11 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and World-renowned thief, Carmen Sandiego. Follow the clues to figure out where Carmen's headed, so we can catch her and bring her in.
 
 ## Prerequisites
 
-- tktk
+- SQL
 
 ## Time to complete
 
@@ -14,30 +14,18 @@ Estimated time to complete core lab exercise: **tktk min**
 
 ## Starter code
 
-tktk If there is not a starter code repo that students will fork and clone to start this lab, then this section and all of its content should be removed.
+You can find the starter code below. Instructions are in the setup.
 
-🟢 [Starter code](#tktk-repository-for-starter-code)
+🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/sql-where-in-the-world-is-carmen-sandiego-lab-starter-code)
 
 ## Content
 
 - [Setup](./setup/README.md)
 - [Exercise](./exercise/README.md)
 
-## Level Up
-
-🚀 [Level Up](./level-up/README.md) tktk - remove section if no level ups exist.
-
 ## Solution code
 
-🏁 [tktk Solution code](#tktk-external-repo-link-url)
-
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/sql-where-in-the-world-is-carmen-sandiego-lab-solution)
 
 ## Internal resources
 
