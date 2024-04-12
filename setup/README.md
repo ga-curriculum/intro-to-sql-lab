@@ -8,77 +8,32 @@ Open your Terminal application and navigate to your `~/code/ga/labs` directory:
 cd ~/code/ga/labs
 ```
 
-Create a new Vite project for your React app:
+Fork and clone the [starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/sql-where-in-the-world-is-carmen-sandiego-lab-starter-code).
+
+Change into the directory:
 
 ```bash
-npm create vite@latest
+cd sql-where-in-the-world-is-carmen-sandiego-lab-starter-code
 ```
 
-You'll be prompted to choose a project name. Let's name it `sql-where-in-the-world-is-carmen-sandiego-lab`.
-
-- Select a framework. Use the arrow keys to choose the `React` option and hit `Enter`.
-
-- Select a variant. Again, use the arrow keys to choose `JavaScript` and hit `Enter`.
-
-Navigate to your new project directory and install the necessary dependencies:
+Create a new database called world and populate it with the SQL found in `world.sql`:
 
 ```bash
-cd sql-where-in-the-world-is-carmen-sandiego-lab
-npm i
+psql -f world.sql
 ```
 
-Open the project's folder in your code editor:
+Start `psql` and connect to the new database called `world`:
 
 ```bash
-code .
+psql -d world
 ```
 
-### Configuring ESLint
+Use the `\d` command to see what tables are available. You should see:
 
-Before we begin, we need to adjust the ESLint configuration. Add the following rules to the `.eslintrc.cjs` file:
+| Schema | Name | Type | Owner |
+| -- | -- | -- | --|
+|public | cities | table | your-username |
+|public | countries | table | your-username |
+|public | countrylanguages | table | your-username |
 
-```js
-rules: {
-  'react-refresh/only-export-components': [
-    'warn',
-    { allowConstantExport: true },
-  ],
-  'react/prop-types': 'off', // add this line
-  'react/no-unescaped-entities': 'off' // add this line
-},
-```
-
-The first addition prevents warnings if you're not declaring types for your props (which we're not), and the second prevents warnings if you're using contractions within JSX.
-
-### Clear `App.jsx`
-
-Open the `App.jsx` file in the `src` directory and replace the contents of it with the following:
-
-```jsx
-// src/App.jsx
-
-const App = () => {
-  return <h1>Hello world!</h1>;
-};
-
-export default App;
-```
-
-### GitHub setup
-
-To add this project to GitHub, initialize a Git repository:
-
-```bash
-git init
-```
-
-Make a new repository on [GitHub](https://github.com/) named sql-where-in-the-world-is-carmen-sandiego-lab.
-
-Link your local project to your remote GitHub repo:
-
-```bash
-git remote add origin https://github.com/<github-username>/sql-where-in-the-world-is-carmen-sandiego-lab.git
-git push origin main
-```
-
-> 🚨 Do not copy the above command. It will not work. Your GitHub username will replace `<github-username>` (including the `<` and `>`) in the URL above.
+Now that you are connected to `psql` and see your tables, you're ready to start.
