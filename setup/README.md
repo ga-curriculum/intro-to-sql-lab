@@ -1,4 +1,4 @@
-# ![SQL Where in the World is Carmen Sandiego - Setup](./assets/hero.png)
+# ![Intro to SQL Lab - Setup](./assets/hero.png)
 
 ## Setup
 
