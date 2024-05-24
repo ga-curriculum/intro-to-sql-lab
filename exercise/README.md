@@ -1,5 +1,5 @@
 # ![Intro to SQL Lab - Exercise](./assets/hero.png)
 
-### Instructions
+## Instructions
 
-Solve each clue in `clues.sql` in your starter code.
+Solve each clue in `clues.sql`  file in your starter code repo.
