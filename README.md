@@ -1,4 +1,4 @@
-# ![Intro to SQL Lab](./assets/tktk-hero.png)
+# ![Intro to SQL Lab](./assets/hero.png)
 
 ## About
 
