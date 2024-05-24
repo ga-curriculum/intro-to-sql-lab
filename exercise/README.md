@@ -2,4 +2,4 @@
 
 ## Instructions
 
-Solve each clue in `clues.sql`  file in your starter code repo.
+Solve each clue in the `clues.sql` file in your starter code repo.
