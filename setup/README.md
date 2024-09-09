@@ -15,6 +15,7 @@ git clone https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-s
 cd intro-to-sql-lab-starter-code
 ```
 
+
 Once cloned, you'll need to remove the existing `.git` information.
 
 This can be done with the following command:
@@ -33,6 +34,12 @@ Use these commands to initialize a new Git repository and make your first commit
 git init
 git add .
 git commit -m "initial commit"
+```
+
+Next, open the contents of your new project directory in VSCode:
+
+```bash
+code .
 ```
 
 Create a new database called `world` and populate it with the SQL found in `world.sql`:
@@ -56,9 +63,3 @@ Use the `\d` command to see what tables are available. You should see:
 | public | countrylanguages | table | your-username |
 
 Now that you are connected to `psql` and see your tables, you're ready to start.
-
-Finally, open the contents of your new project directory in VSCode:
-
-```bash
-code .
-```
