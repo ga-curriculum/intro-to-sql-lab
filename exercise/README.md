@@ -1,4 +1,7 @@
-# ![Intro to SQL Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to SQL Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 ## Instructions
 
