@@ -11,10 +11,10 @@ Open your Terminal application and navigate to your `~/code/ga/labs` directory:
 cd ~/code/ga/labs
 ```
 
-Clone the [Intro to SQL Lab Starter Code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-sql-lab-starter-code) repository, and enter the new directory:
+Clone the [Intro to SQL Lab Starter Code](https://github.com/ga-curriculum/intro-to-sql-lab-starter-code) repository, and enter the new directory:
 
 ```bash
-git clone https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-sql-lab-starter-code.git
+git clone https://github.com/ga-curriculum/intro-to-sql-lab-starter-code.git
 cd intro-to-sql-lab-starter-code
 ```
 
